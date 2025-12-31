@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/Eva.WhatsApp/Eva.WhatsApp.csproj" />
+    <Project Path="Presentation/Eva.Worker/Eva.Worker.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="azure-pipelines.yml" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="Eva.Application/Eva.Application.csproj" />
+  <Project Path="Eva.Domain/Eva.Domain.csproj" />
+  <Project Path="Eva.Infrastructure/Eva.Infrastructure.csproj" />
+</Solution>

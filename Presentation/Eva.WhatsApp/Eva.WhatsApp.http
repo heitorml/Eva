@@ -1,0 +1,6 @@
+@Eva.WhatsApp_HostAddress = http://localhost:5036
+
+GET {{Eva.WhatsApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

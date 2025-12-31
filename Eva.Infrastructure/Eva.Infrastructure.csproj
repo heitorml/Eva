@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="InternalSerices\MerchantResource\**" />
+    <Compile Remove="InternalSerices\RhResource\**" />
+    <Compile Remove="InternalSerices\UserResource\**" />
+    <EmbeddedResource Remove="InternalSerices\MerchantResource\**" />
+    <EmbeddedResource Remove="InternalSerices\RhResource\**" />
+    <EmbeddedResource Remove="InternalSerices\UserResource\**" />
+    <None Remove="InternalSerices\MerchantResource\**" />
+    <None Remove="InternalSerices\RhResource\**" />
+    <None Remove="InternalSerices\UserResource\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.5.7" />
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.5.7" />
+    <PackageReference Include="MassTransit.EventHub" Version="8.5.7" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.7" />
+    <PackageReference Include="MassTransit.SqlTransport.PostgreSQL" Version="8.5.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.1" />
+    <PackageReference Include="Polly" Version="8.6.5" />
+    <PackageReference Include="Polly.Core" Version="8.6.5" />
+    <PackageReference Include="Refit" Version="9.0.2" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="9.0.2" />
+	  <PackageReference Include="Microsoft.ApplicationInsights" Version="2.23.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ExternalServices\Telemetry\DataDog\" />
+  </ItemGroup>
+
+</Project>
