@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Eva.Application/bin/Debug/net10.0
+/Eva.Application/obj
+/Eva.Domain/bin/Debug/net10.0
+/Eva.Domain/obj
+/Eva.Infrastructure/bin/Debug/net10.0
+/Eva.Infrastructure/obj
+/Presentation/Eva.WhatsApp/bin/Debug/net10.0
+/Presentation/Eva.WhatsApp/obj
+/Presentation/Eva.WhatsApp/Properties
+*.user
+/Presentation/Eva.Worker/bin/Debug/net10.0
+/Presentation/Eva.Worker/obj
+/Presentation/Eva.Worker/Properties
